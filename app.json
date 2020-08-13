@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "pokedex-app",
-    "slug": "com.pokedex.app",
+    "name": "Pokedex App",
+    "slug": "com-pokedex-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,6 +19,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Catálogo de pokemons em React Native Expo com Redux e Styled Components.",
+    "githubUrl": "https://github.com/vinaciotm/pokedex-app"
   }
 }
