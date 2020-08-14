@@ -16,7 +16,7 @@ export const Details = styled.View`
   border-radius: 30px;
   background-color: #fff;
   padding: 30px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 8px rgba(0, 0, 20, 0.08);
 `;
 
 export const DetailTitle = styled.Text`
