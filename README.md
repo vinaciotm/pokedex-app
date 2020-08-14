@@ -7,14 +7,13 @@
 Dê aquela espiada no resultado atual do aplicativo...
 
 ### Splash:
-<p align="center"><img src="https://github.com/vinaciotm/pokedex-app/blob/master/assets/sample/splash.PNG?raw=true" width="50%" title="Pokemons List"></p>
-
+<p align="center"><img src="https://github.com/vinaciotm/pokedex-app/blob/master/assets/sample/splash.PNG?raw=true" width="320px" title="Pokemons List"></p>
 
 ### Listagem de Pokemons:
-<p align="center"><img src="https://github.com/vinaciotm/pokedex-app/blob/master/assets/sample/pokemonsList.PNG?raw=true" width="50%" title="Pokemons List"></p>
+<p align="center"><img src="https://github.com/vinaciotm/pokedex-app/blob/master/assets/sample/pokemonsList.PNG?raw=true" width="320px" title="Pokemons List"></p>
 
 ### Detalhes do Pokemon:
-<p align="center"><img src="https://github.com/vinaciotm/pokedex-app/blob/master/assets/sample/pokemonDetails.PNG?raw=true" width="50%" alt="Pokemon Details"></p>
+<p align="center"><img src="https://github.com/vinaciotm/pokedex-app/blob/master/assets/sample/pokemonDetails.PNG?raw=true" width="320px" alt="Pokemon Details"></p>
 
 ## :rocket:  Sobre
 
