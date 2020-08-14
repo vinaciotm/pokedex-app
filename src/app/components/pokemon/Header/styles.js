@@ -23,7 +23,7 @@ export const Sprite = styled.Image`
   flex: 1;
   width: auto;
   padding: 30px;
-  height: 180px;
+  height: 160px;
 `;
 
 export const Id = styled.Text`
@@ -37,7 +37,7 @@ export const Id = styled.Text`
 export const Name = styled.Text`
   text-transform: capitalize;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 38px;
 
   color: #fff;
