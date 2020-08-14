@@ -13,6 +13,7 @@ export const Container = styled.View`
 export const Infos = styled.View`
   flex: 1;
   padding-right: 30px;
+
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -21,7 +22,7 @@ export const Infos = styled.View`
 export const Sprite = styled.Image`
   flex: 1;
   width: auto;
-
+  padding: 30px;
   height: 180px;
 `;
 
