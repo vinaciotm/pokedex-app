@@ -17,6 +17,8 @@ import Header from "../../components/pokemon/Header";
 import Stat from "../../components/pokemon/Stat";
 import Ability from "../../components/pokemon/Ability";
 
+import Loading from "../../components/utils/Loading";
+
 const PokemonDetails = ({ route, navigation }) => {
   const { id } = route.params;
 
@@ -36,7 +38,7 @@ const PokemonDetails = ({ route, navigation }) => {
     <Container>
       <BackButton navigation={navigation} />
 
-      {pokemon.loaded && (
+      {pokemon.loaded ? (
         <Content>
           <Header img={pokemon.data.img} id={id} name={pokemon.data.name} />
 
@@ -59,6 +61,8 @@ const PokemonDetails = ({ route, navigation }) => {
             </DetailContent>
           </Details>
         </Content>
+      ) : (
+        <Loading loading={true} white />
       )}
     </Container>
   );

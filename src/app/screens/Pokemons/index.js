@@ -8,6 +8,8 @@ import { getPokemons, resetPokemons } from "../../../redux/pokemons/action";
 import PokemonsListHeader from "../../components/pokemons/Header";
 import PokemonItem from "../../components/pokemons/Item";
 
+import Loading from "../../components/utils/Loading";
+
 const PokemonsList = ({ navigation }) => {
   const dispatch = useDispatch();
   const pokemons = useSelector((state) => state.pokemons);
@@ -36,10 +38,6 @@ const PokemonsList = ({ navigation }) => {
     if (!pokemons.data.length && !pokemons.loading) return load();
   }, [pokemons]);
 
-  const loadingComponent = () => {
-    if (pokemons.loading) return <Text>Carregando</Text>;
-  };
-
   return (
     <Container
       data={pokemons.data}
@@ -48,7 +46,7 @@ const PokemonsList = ({ navigation }) => {
         <PokemonItem item={item} navigation={navigation} />
       )}
       ListHeaderComponent={<PokemonsListHeader />}
-      ListFooterComponent={loadingComponent()}
+      ListFooterComponent={<Loading loading={pokemons.loading} />}
       onEndReached={loadMore}
       onEndReachedThreshold={2}
     />
