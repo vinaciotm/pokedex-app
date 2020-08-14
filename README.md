@@ -2,6 +2,16 @@
 
 ---
 
+## Demonstração
+
+Dê aquela espiada no resultado atual do aplicativo...
+
+### Listagem de Pokemons:
+<p align="center"><img src="https://github.com/vinaciotm/pokedex-app/blob/master/assets/sample/pokemonsList.jpeg?raw=true" width="50%" title="Pokemons List"></p>
+
+### Detalhes do Pokemon:
+<p align="center"><img src="https://github.com/vinaciotm/pokedex-app/blob/master/assets/sample/pokemonDetails.jpeg?raw=true" width="50%" alt="Pokemon Details"></p>
+
 ## :rocket:  Sobre
 
 #### Este projeto foi feito com:
@@ -25,7 +35,7 @@ Siga os passos abaixo para rodar o aplicativo no seu smartphone.
 
 ---
 
-### :zap: Instale o [Node.js (LTS)](https://nodejs.org/en/download/), [GIT](https://git-scm.com/downloads) e [Yarn](https://yarnpkg.com/) no seu computador ou notebook
+### :zap: Instale o [Node.js (LTS)](https://nodejs.org/en/download/), [GIT](https://git-scm.com/downloads) e [Yarn](https://yarnpkg.com/) no seu computador ou notebook:
 
 - Rode este comando no terminal dentro do diretório que deseja baixar o projeto:
 
@@ -35,13 +45,13 @@ Siga os passos abaixo para rodar o aplicativo no seu smartphone.
 
 `cd pokedex-app`
 
-### :hammer: Instale as dependências
+### :hammer: Instale as dependências:
 
 - Agora precisamos instalar as dependências para que o projeto funcione, rode o comando:
 
 `yarn install`
 
-#### :computer: Execute o projeto EXPO
+#### :computer: Execute o projeto EXPO:
 
 - Para executar o projeto rode o comando no seu terminal, dentro da pasta do projeto:
 
@@ -53,7 +63,7 @@ Siga os passos abaixo para rodar o aplicativo no seu smartphone.
 - [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent)
 - [Apple Store](https://apps.apple.com/br/app/expo-client/id982107779)
 
-### :speech_balloon: Fale comigo
+### :speech_balloon: Fale comigo:
 
 - [LinkedIn](https://www.linkedin.com/in/viniciusinaciopires/)
 - [E-mail](viniciusinaciopires@gmail.com)
