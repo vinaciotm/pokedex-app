@@ -14,7 +14,7 @@ function* pokemons() {
 }
 
 function* asyncGetPokemons(action) {
-  yield delay(300);
+  yield delay(500);
 
   const offset = action.payload.offset;
   const route = `pokemon?offset=${offset}&limit=10`;
